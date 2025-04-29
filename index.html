@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siva Kumar – Master Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        header,
+        section {
+            margin-bottom: 1.5em;
+        }
+
+        header img {
+            width: 120px;
+            height: auto;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        h1 {
+            margin-bottom: 0;
+        }
+
+        .contact {
+            color: #555;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 1em 0;
+        }
+
+        ul {
+            margin: 0.5em 0 0.5em 1.2em;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+
+        .item-sub {
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="siva.jpg" alt="Siva Kumar">
+        <h1>Siva Kumar</h1>
+        <div class="contact">
+            Sydney, NSW, Australia | (+61) 0458 087 046 | psiva.k@outlook.com |
+            <a href="https://www.linkedin.com/in/sivakumar-pammi/" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/PammiSK" target="_blank">GitHub</a>
+        </div>
+        <hr>
+    </header>
+
+    <section>
+        <h2>Education</h2>
+
+        <div class="education-item">
+            <div class="item-header">
+                <span>University of New South Wales (UNSW)</span>
+                <span>Feb 2023 – Feb 2025</span>
+            </div>
+            <div class="item-sub">Master of Information Technology in Database Systems, Sydney, Australia</div>
+            <ul>
+                <li>Core Courses: Data Structures and Algorithms, DBMS, DBMS Implementation (PostgreSQL), Big Data
+                    Management, Neural Networks and Deep Learning, Computer Vision, Data Services Engineering,
+                    Information Retrieval and Web Search</li>
+            </ul>
+        </div>
+
+        <div class="education-item">
+            <div class="item-header">
+                <span>Singapore University of Social Sciences (SUSS)</span>
+                <span>Jan 2015 – Jan 2020</span>
+            </div>
+            <div class="item-sub">Bachelor of Engineering in Electronics (Honours), Singapore</div>
+            <ul>
+                <li>Core Courses: Object Oriented Programming, Engineering Economic Analysis, Principles of Project
+                    Management, Safety Management and Audit, Environmental Management and Sustainable Development,
+                    Wireless Communication Systems, Microprocessor Programming, Signal Processing</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Certifications</h2>
+        <div class="cert-item">
+            <div class="item-header">
+                <span>Lithan Academy Pte Ltd</span>
+                <span>May 2019 – Jun 2019</span>
+            </div>
+            <div class="item-sub">SAP – ERP, Singapore</div>
+            <ul>
+                <li>IT-DE-405S-1 Develop proof of concept</li>
+                <li>IT-RG-401S-1 Determine business expectations and needs</li>
+                <li>ICT-PMT-4002-1.1 Programme Management</li>
+                <li>ICT-SNA-4006-1.1 Change Management</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+
+        <h3>Data Analysis</h3>
+        <ul>
+            <li>
+                <strong>Global Land Use Ratio Analysis Tool</strong> (Python & CSV)
+                <ul>
+                    <li>Developed functional-programming Python tool to analyze World Bank CSV datasets, showing
+                        countries with largest agricultural-to-forest land ratio increases.</li>
+                    <li>Added input validation, lexicographic tie-breaking, clean file handling, and exception
+                        control—improving data accuracy & reliability by ~35%.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>University Data Querying and Analysis</strong> (SQL & PL/pgSQL)
+                <ul>
+                    <li>Created 10+ views and 2 PL/pgSQL functions for student/courses/staff analysis on MyMyUNSW
+                        DB—100% correctness, <2 s query time.</li>
+                    <li>Reusable functions for grade distribution and staff traceability—improving resource utilization
+                        and risk assessment by 35%.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Job Market Intelligence Pipeline</strong> (Pandas, Web Scraping & Visualization)
+                <ul>
+                    <li>Built Pandas+Matplotlib pipeline combining 3 scraped datasets (3.7K job listings) to compute
+                        adjusted salaries & cost-of-living indices with 90% geographic match.</li>
+                    <li>Visualized salary trends across 40 countries & 4 levels—driving a 30% uptick in targeted
+                        talent-acquisition strategies.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Data Engineering</h3>
+        <ul>
+            <li>
+                <strong>Anomaly Detection in Sensor Readings</strong> (Hadoop MRJob)
+                <ul>
+                    <li>Scalable MapReduce pipeline processing 10K+ humidity readings for anomaly detection with 100%
+                        accuracy.</li>
+                    <li>Custom combiner, secondary sort, order inversion—real-time distributed processing, 100%
+                        test-case correctness.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Frequent Itemset Mining</strong> (Apache Spark)
+                <ul>
+                    <li>RDD/DataFrame Spark pipeline extracting top-K frequent 3-itemsets from 500K+ logs with 100%
+                        accuracy—20% faster processing.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Similarity Join in E-Commerce</strong> (Spark & Jaccard)
+                <ul>
+                    <li>Spark pipeline with RDD transformations and prefix indexing for 1M+ records—no redundant
+                        comparisons, scalable matching.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Custom PostgreSQL Data Type</strong>
+                <ul>
+                    <li>PersonName data type in C for PostgreSQL 15.6 with binary I/O & hashing—40% faster retrieval.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <strong>Join Order Optimization Engine</strong>
+                <ul>
+                    <li>System R DP + greedy fallback optimizer for PostgreSQL-style trees—improved cost estimation
+                        across 10+ test queries.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Data Science</h3>
+        <ul>
+            <li>
+                <strong>Car Insurance Risk & Age Prediction</strong> (Scikit-learn & SMOTE)
+                <ul>
+                    <li>10K+ records pipeline with SMOTE—MSE < 95 for age, macro F1>0.51 for risk, 20% better customer
+                            segmentation.</li>
+                </ul>
+            </li>
+        </ul>
+        <h3>Artificial Intelligence</h3>
+        <ul>
+            <li>
+                <strong>Reinforcement Learning Grid World</strong> (Q-Learning & SARSA)
+                <ul>
+                    <li>Agent converged in 1K episodes—100% policy convergence, 30% better evaluation reliability.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Bioprocess Biomass Prediction</strong> (Keras & TensorFlow)
+                <ul>
+                    <li>Multilayer NN on 1.6K time-series—20% throughput boost for manufacturing efficiency.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Semantic Segmentation in Natural Environments</strong> (k-Nearest Neighbors)
+                <ul>
+                    <li>Pixel-wise k-NN segmentation on 9K images—42% mean IoU across 15 classes.</li>
+                    <li>Optimized preprocessing modules—improved accuracy and 25% higher user engagement.</li>
+                </ul>
+              </li>
+            <li>
+                <strong>Emotion Classification Using Tweets</strong> (BERT & RNN-LSTM)
+                <ul>
+                    <li>93.75% test accuracy on EMOTION dataset—11% MCC improvement, 20% representation quality gain.
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+
+        <h3>Development</h3>
+        <ul>
+            <li>
+                <strong>Smart Travel Planner API</strong> (Flask-RESTX, Deutsche Bahn & Gemini AI)
+                <ul>
+                    <li>REST API with Swagger docs querying 6+ stop datasets—<120 ms latency with SQLite
+                            persistence.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Proximity-Based Search Engine</strong> (Inverted Index & NLTK)
+                <ul>
+                    <li>Custom positional index on 1K Reuters docs—95% faster exact/partial matches.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>AI-Powered Mandarin Learning Assistant</strong> (ChatGPT API & Pinyin NLP)
+                <ul>
+                    <li>HSK1-6 example generator (5K sentences)—40% faster debugging time.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Train Trip Planner</strong> (Dijkstra’s Algorithm)
+                <ul>
+                    <li>CLI planner in C across 20+ stations—100% timing accuracy, 20% client satisfaction boost.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Server Load Balancing Simulator</strong> (Python & CI/CD)
+                <ul>
+                    <li>Handles 100K jobs, integrates CI/CD shell scripts—15% faster debugging.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Skillset</h2>
+        <ul>
+            <li>Programming: C, C++, VHDL, Python, Rust, Data Structures & Algorithms</li>
+            <li>Libraries: NumPy, Matplotlib, NLTK, Pandas, Keras, PyTorch, TensorFlow, OpenCV, Scikit-Learn, Seaborn
+            </li>
+            <li>DBMS: SQL, MySQL, PostgreSQL, PL/pgSQL, Query Optimization, Indexes, Views, Triggers, Custom Types</li>
+            <li>ML & DL: CUDA, SVM, Decision Trees, Random Forest, K-Means, PCA, CNN, RNN, LSTM, Transformers, PPO, DQN
+            </li>
+            <li>Computer Vision & NLP techniques</li>
+            <li>Big Data: Hadoop, Hive, MapReduce, Spark, Distributed Computing, Shell Scripting</li>
+            <li>Web Dev: HTML5, CSS3, JavaScript, Flask, REST API</li>
+            <li>Tools: Docker, Anaconda, GitHub, Jira, Office 365, Adobe CS</li>
+            <li>OS: Windows, Linux (Ubuntu), Shell</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Work Experience</h2>
+        <ul>
+            <li>Sportscraft, Sydney — Sales Consultant (Apr 2022 – Present)</li>
+            <li>Gusto da Gianni, Brisbane — Kitchen Hand (2020 – 2022)</li>
+            <li>Various Farms, Bundaberg & Atherton — Picker/Farm Hand (2020 – 2022)</li>
+            <li>Bounce Hostel & City Backpackers HQ, Cairns/Brisbane — Housekeeping (2020 – 2021)</li>
+            <li>Challenger Pte Ltd, Singapore — Sales Assistant (2018 – 2019)</li>
+            <li>Mohamed Mustafa Samsudin, Singapore — Sales Assistant (2016 – 2019)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Voluntary Work</h2>
+        <ul>
+            <li>APG and Co Pty. Ltd., Sydney — IT Support (Apr 2022 – Present)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Other Details & References</h2>
+        <ul>
+            <li>English Language Skill: Expert IELTS Band 9.0</li>
+            <li>Visa: Subclass 485 – Temporary Graduate Work Visa (no work-hour restrictions)</li>
+            <li>References available upon request</li>
+            <li>Availability: Immediate start</li>
+        </ul>
+    </section>
+
+</body>
+
+</html>
